@@ -32,8 +32,8 @@ body {
   display: none;
 }
 .pswp__caption {
-  position: absolute;
-  bottom:100px;
+  /* position: absolute;
+  bottom:100px; */
 }
 .pswp__ui--fit .pswp__caption {
   background-color:#000
