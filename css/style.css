@@ -1,3 +1,19 @@
+@font-face{
+  font-family:'NanumSquareB';
+  src: url(../font/nanumsquareb.eot);
+  src: url(../font/nanumsquareb.eot?#iefix) format('embedded-opentype'),
+       url(../font/nanumsquareb.woff) format('woff'),
+       url(../font/NanumSquareBold.ttf) format('truetype');
+}
+
+body {
+  font-family: NanumSquareB, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+
 .my-gallery {
   width: 100%;
   float: left;
@@ -15,6 +31,15 @@
 .my-gallery figcaption {
   display: none;
 }
-body {
-  
+.pswp__caption {
+  position: absolute;
+  bottom:100px;
+}
+.pswp__ui--fit .pswp__caption {
+  background-color:#000
+}
+.pswp__caption__center {
+  font-size:20px;
+  text-align:center;
+  line-height:1.3;
 }
