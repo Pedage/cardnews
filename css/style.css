@@ -12,7 +12,13 @@ body {
   font-size: 18px;
   text-align: center;
 }
-
+h3 {
+  font-size:16px;
+  text-align:center;
+}
+p {
+  font-size:12px
+}
 .my-gallery {
   width: 100%;
   float: left;
@@ -44,9 +50,7 @@ body {
 .pswp__bg {
   background:white;
 }
-.pswp__ui--idle .pswp__top-bar {
-  opacity:1;
-}
+
 .pswp__ui--fit .pswp__caption {
   background-color:#fff;
 }
