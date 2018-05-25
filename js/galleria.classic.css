@@ -298,6 +298,7 @@ a {
         width:-moz- calc(100% - 24px);
         width: 100%;
         /* padding: 0 12px; */
+        margin:0 0 20px 0;
     }
     .description {
                 padding: 0 12px;
