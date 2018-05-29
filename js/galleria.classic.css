@@ -54,7 +54,7 @@ a {
     font-size:14px;
     color:#666
 }
-#fullscreen {
+#fullscreen, .galleria-exit {
     position:absolute;
     z-index:1000;
     right:0;
@@ -329,7 +329,7 @@ a {
     .description {
                 padding: 0 12px;
     }
-    #fullscreen {
+    #fullscreen, .galleria-exit {
         right:12px;
     }
     .galleria-theme-classic .galleria-info-description {
