@@ -2913,7 +2913,7 @@ Galleria.prototype = {
                 }).prepend( self._layers[i] = $( Utils.create('galleria-layer') ).css({
                     position: 'absolute',
                     top:0, left:0, right:0, bottom:0,
-                    zIndex:2
+                    zIndex:500
                 })[0] );
 
                 // append the image
@@ -3683,7 +3683,7 @@ Galleria.prototype = {
                         }).prepend( self._layers[i] = $( Utils.create('galleria-layer') ).css({
                             position: 'absolute',
                             top:0, left:0, right:0, bottom:0,
-                            zIndex:2
+                            zIndex:500
                         })[0] ).appendTo( $images );
 
                         if( data.video ) {
