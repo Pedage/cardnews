@@ -8,7 +8,7 @@
         <script src="js/galleria-1.5.7.js"></script>
     </head>
 <body>
-    <div class="content">
+    <div class="content" id="index_007">
         <div id="fullscreen"></div>
         <div id="galleria">
             <img 
@@ -27,8 +27,8 @@
                 src="images/007/007_03.gif",
                 data-big="images/007/007_03.gif"
                 data-title=""
-                data-description="산수유나, 매화, 벚꽃보다 화려하지는 않지만 소박한 갯버들.
-                꽃이 커서 나비와 벌들이 쉬지 않고 윙윙 다가옵니다."
+                data-layer="<h1></h1>"
+                data-description=""
             >
             <img 
                 src="images/007/007_04.jpg",
@@ -46,7 +46,8 @@
                 src="images/007/007_06.gif",
                 data-big="images/007/007_06.gif"
                 data-title=""
-                data-description="열매가 다 익으면 열매껍질이 터져 하얀 솜털 달린 씨앗이 바람에 날립니다."
+                data-description=""
+                data-layer="<h2></h2>"
             >
             <img 
                 src="images/007/007_07.jpg",
@@ -85,6 +86,12 @@
             $('#fullscreen').click(function() {
                 gallery.toggleFullscreen(); // toggles the fullscreen
             });
+        });
+    </script>
+    <script>
+        var wid = $(".galleria-layer").width();
+        $(".galleria-info").css({
+        "width": wid + "px"
         });
     </script>
     </body>
