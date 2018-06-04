@@ -7,7 +7,9 @@
  * https://raw.github.com/worseisbetter/galleria/master/LICENSE
  *
  */
- 
+ #index_01 .galleria-layer h1 {
+    background-image:url('../images/01/01_03_text.png');
+}
  #index_02 .galleria-layer div {
      position: absolute;
      width:100%;
