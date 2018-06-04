@@ -8,9 +8,100 @@
  *
  */
 
+ #index_02 .galleria-layer h1::after {
+    font-family: BMHanna, sans-serif;
+    font-size: 46px;
+    color:#000;
+    content:'';
+    animation: index02 15s infinite ease-out;
+    transform:translate(-50%, 60px);
+    position: absolute;
+    width:100%;
+}
+@keyframes index02 {
+    0% {
+        content:'미세먼지, 황사, 꽃가루,';
+        transform:translate(-50%, 52px);
+    }
+    14.9999% {
+        content:'미세먼지, 황사, 꽃가루,';
+        transform:translate(-50%, 16px);
+        opacity:0;
+    }
+    15% {
+        content:'배기가스, 중금속, 매연,';
+        transform:translate(-50%, 52px);
+        opacity:1;
+    }
+    29.9999% {
+        content:'배기가스, 중금속, 매연,';
+        transform:translate(-50%, 16px);
+        opacity:0;
+    }
+    30% {
+        content:'스모그, 오존, 분진...';
+        transform:translate(-50%, 52px);
+        opacity:1;
+    }
+    44.9999% {
+        content:'스모그, 오존, 분진...';
+        transform:translate(-50%, 16px);
+        opacity:0;
+    }
+    45% {
+        content:'나날이 더해가는 대기오염...';
+        transform:translate(-50%, 52px);
+        opacity:1;
+    }
+    59.9999% {
+        content:'나날이 더해가는 대기오염...';
+        transform:translate(-50%, 16px);
+        opacity:0;        
+    }
+    60% {
+        content:'몸 속에 쌓여가는 유해물질..';
+        transform:translate(-50%, 52px);
+        opacity:1;
+    }
+    74.9999% {
+        content:'몸 속에 쌓여가는 유해물질..';
+        transform:translate(-50%, 16px);
+        opacity:0;      
+        color:#000;     
+    }
+    75% {
+        content:'도라지로 몸 속 노폐물을 빼내자!';
+        transform:translate(-50%, 52px);
+        opacity:1;
+        color:#f3572d;
+    }
+    80% {
+        content:'도라지로 몸 속 노폐물을 빼내자!';
+        transform:translate(-50%, 44px);
+        opacity:1;
+    }
+    95% {
+        content:'도라지로 몸 속 노폐물을 빼내자!';
+        transform:translate(-50%, 44px);
+        opacity:1;
+    }
+    100% {
+        content:'도라지로 몸 속 노폐물을 빼내자!';
+        opacity:0; 
+        transform:translate(-50%, 20px);
+        color:#f3572d;
+    }
+}
+#index_02 .galleria-layer h2 {
+    background-image:url('../images/02/02_02_text.gif');
+
+}
+#index_02 .galleria-layer h3 {
+    background-image:url('../images/02/02_09_text.gif');
+}
+
 #index_007 .galleria-layer h1 {
     background-image:url('../images/007/007_03.png');
-
 }
 #index_007 .galleria-layer h2 {
     background-image:url('../images/007/007_06.png');
@@ -343,4 +434,16 @@ a {
     .galleria-theme-classic .galleria-info-text {
         padding: 12px 18px;
     }
+    #index_02 .galleria-layer h1::after {
+        font-size:20px;
+    }
 }
+
+
+@font-face{
+    font-family:'BMHanna';
+    src: url(../fonts/BMHANNA11yrsold.eot);
+    src: url(../fonts/BMHANNA11yrsold.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/BMHANNA11yrsold.woff) format('woff'),
+         url(../fonts/BMHANNA_11yrs_ttf.ttf) format('truetype');
+    }
