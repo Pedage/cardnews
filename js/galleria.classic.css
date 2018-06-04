@@ -13,6 +13,9 @@
     font-size: 46px;
     color:#000;
     content:'';
+    -webkit-animation:index02 15s infinite ease-out;
+    -moz-animation: index02 15s infinite ease-out;
+    -o-animation: index02 15s infinite ease-out;
     animation: index02 15s infinite ease-out;
     transform:translate(-50%, 60px);
     position: absolute;
