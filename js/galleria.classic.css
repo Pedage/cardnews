@@ -68,7 +68,7 @@ a {
 .content {
     color:#777;
     font:12px/1.4 sans-serif;
-    width:700px;
+    width:800px;
     margin:20px auto;
     position:relative;
 }
@@ -99,7 +99,7 @@ a {
 
 #galleria {
     width:100%;
-    height:700px;
+    height:800px;
 }
 
 #galleria-loader {
@@ -109,7 +109,7 @@ a {
 .galleria-theme-classic {
     position: relative;
     overflow: hidden;
-    background: #000;
+    background: white;
 }
 .galleria-theme-classic img {
     -moz-user-select: none;
