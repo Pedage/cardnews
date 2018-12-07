@@ -68,7 +68,7 @@ a {
 .content {
     color:#777;
     font:12px/1.4 sans-serif;
-    width:800px;
+    width:700px;
     margin:20px auto;
     position:relative;
 }
@@ -99,7 +99,7 @@ a {
 
 #galleria {
     width:100%;
-    height:800px;
+    height:700px;
 }
 
 #galleria-loader {
