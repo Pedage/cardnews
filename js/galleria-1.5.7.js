@@ -2819,7 +2819,7 @@ Galleria.prototype = {
             }
 
             // the gallery is ready, let's just wait for the css
-            var num = { width: 0, height: 0 };
+            var num = { width: 0 };
             var testHeight = function() {
                 return self.$( 'stage' ).height();
             };
@@ -2830,14 +2830,14 @@ Galleria.prototype = {
 
                     // keep trying to get the value
                     num = self._getWH();
-                    $container.width( num.width ).height( num.height );
+                    $container.width( num.width ).height( num.width );
                     return testHeight() && num.width && num.height > 50;
 
                 },
                 success: function() {
 
                     self._width = num.width;
-                    self._height = num.height;
+                    self._height = num.width;
                     self._ratio = self._ratio || num.height/num.width;
 
                     // for some strange reason, webkit needs a single setTimeout to play ball
@@ -4727,7 +4727,7 @@ this.prependChild( 'info', 'myElement' );
             measures = undef;
         }
 
-        measures = $.extend( { width:0, height:0 }, measures );
+        measures = $.extend( { width:0 }, measures );
 
         var self = this,
             $container = this.$( 'container' );

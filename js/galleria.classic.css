@@ -7,7 +7,6 @@
  * https://raw.github.com/worseisbetter/galleria/master/LICENSE
  *
  */
-
  #index_02 .galleria-layer div {
      position: absolute;
      width:100%;
@@ -68,7 +67,8 @@ a {
 .content {
     color:#777;
     font:12px/1.4 sans-serif;
-    width:700px;
+    max-width:700px;
+    width:100%;
     margin:20px auto;
     position:relative;
 }
@@ -99,7 +99,6 @@ a {
 
 #galleria {
     width:100%;
-    height:700px;
 }
 
 #galleria-loader {
@@ -109,7 +108,7 @@ a {
 .galleria-theme-classic {
     position: relative;
     overflow: hidden;
-    background: white;
+    background: rgba(255, 255, 255, 0);
 }
 .galleria-theme-classic img {
     -moz-user-select: none;
