@@ -2606,7 +2606,6 @@ Galleria.prototype = {
             fullscreenCrop: undef, // 1.2.5
             fullscreenDoubleTap: true, // 1.2.4 toggles fullscreen on double-tap for touch devices
             fullscreenTransition: undef, // 1.2.6
-            height: 0,
             idleMode: true, // 1.2.4 toggles idleMode
             idleTime: 3000,
             idleSpeed: 200,
@@ -2662,6 +2661,7 @@ Galleria.prototype = {
             },
             wait: 5000, // 1.2.7
             width: 'auto',
+            height: 'auto',
             youtube: {
                 modestbranding: 1,
                 autohide: 1,
@@ -2837,7 +2837,7 @@ Galleria.prototype = {
                 success: function() {
 
                     self._width = num.width;
-                    self._height = num.width;
+                    self._height = num._height;
                     self._ratio = self._ratio || num.height/num.width;
 
                     // for some strange reason, webkit needs a single setTimeout to play ball
