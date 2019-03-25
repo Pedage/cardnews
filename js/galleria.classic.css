@@ -108,7 +108,7 @@ a {
 .galleria-theme-classic {
     position: relative;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 1);
 }
 .galleria-theme-classic img {
     -moz-user-select: none;
